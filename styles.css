@@ -1,73 +1,53 @@
 .Restaurants-Homepage-Container{
+  display: flex;
+  flex-direction: column;
+  }
+  
+  .Section-Grey{
     display: flex;
-    flex-direction: column;
+    background-color:#F2F3F0;
+    .Section-Grey--White{
+      background-color: white;
     }
-    
-    .Homepage-Section{
-      display: flex;
-      background-color:#F2F3F0;
-     }
-    
-
-    .Location{
-      background-color: #E8E6E4;
-      padding: 1px;
-    }
-
-    .Footer-Div{
-      
-    }
-
-    .Footer-Text{
-      color: black;      
-    }
-    
+   }
   
 
-    
-    .How-It-Works-Div{
-    background-color: #F2F3F0;
-    }
-    
-    .Explore-Button{
-      border-radius: 20px;
-      padding: 10px;
-      background-color: #9356DC;
-      color: white;
-    }
+  .Location{
+    background-color: #E8E6E4;
+    padding: 1px;
+  }
+  
+  .Explore-Button{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #9356DC;
+    color: white;
+  }
 
-    .Section-1{
-     background-color: #F2F3F0; 
-    }
-
-    .Section-2{
-      background-color: #F2F3F0; 
-     }
-
-    .Restaurant-Card-Image{
-      height: 150px;
-      width: 270px;
-      border-top-left-radius: 15px;
-      border-top-right-radius: 15px;
-    }
-    
-    .Homepage-Section{
-      max-width: 33vw;
-    }
-    
-    .Restaurant-Name{
-      margin-left: 10px;
-      margin-top: 5px;
-    }
-    
-    .Restaurant-City{
-      margin-left: 10px;
-      margin-top: -13px;
-    }
-    
-    .Restaurant-Card{
-      box-shadow: 3px 3px 3px lightgray;
-      margin: 10px;
-      height: 210px;
-      border-radius: 15px;
-    }
+  .Restaurant-Card-Image{
+    height: 150px;
+    width: 270px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .Homepage-Section{
+    max-width: 33vw;
+  }
+  
+  .Restaurant-Name{
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  
+  .Restaurant-City{
+    margin-left: 10px;
+    margin-top: -13px;
+  }
+  
+  .Restaurant-Card{
+    box-shadow: 3px 3px 3px lightgray;
+    margin: 10px;
+    height: 210px;
+    border-radius: 15px;
+  }
