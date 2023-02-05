@@ -5,8 +5,47 @@
     
     .Homepage-Section{
       display: flex;
+      background-color:#F2F3F0;
+     }
+    
+
+    .Location{
+      background-color: #E8E6E4;
+      padding: 1px;
+    }
+
+    .Footer-Div{
+      background-color: white;
+    }
+
+    .Footer-Text{
+      color: white;      
     }
     
+    .Footer-Logo{
+      background-color: black;
+      color: white;
+    }
+    
+    .How-It-Works-Div{
+    background-color: #F2F3F0;
+    }
+    
+    .Explore-Button{
+      border-radius: 20px;
+      padding: 10px;
+      background-color: #9356DC;
+      color: white;
+    }
+
+    .Section-1{
+     background-color: #F2F3F0; 
+    }
+
+    .Section-2{
+      background-color: #F2F3F0; 
+     }
+
     .Restaurant-Card-Image{
       height: 150px;
       width: 270px;
