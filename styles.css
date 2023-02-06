@@ -10,23 +10,48 @@
       background-color: white;
     }
    }
-  
+
+   .How-It-Works-Div{
+    box-shadow: 3px 3px 3px lightgrey;
+    background-color: #F2F3F0;
+    border-radius: 40px;
+    width: 380px;
+   }
+
+   .HIW-Icon{
+    color: grey;
+    margin-left: 40px;
+   }
+
+   .HIW-Icon-Purple{
+    color: #9356DC;
+    margin-left: 40px;
+   }
+
+   .HIW-Text{
+    margin-left: 80px;
+   }
 
   .Location{
     background-color: #E8E6E4;
     padding: 1px;
+    height: 90px;
   }
   
   .Explore-Button{
-    border-radius: 20px;
-    padding: 10px;
+    border-radius: 48px;
+    padding: 30px;
     background-color: #9356DC;
     color: white;
+    font-size: 40px;
+    width: 520px;
+    margin-left: -10px;
+    box-shadow: 0px, 10px, 5px lightgray;
   }
 
   .Restaurant-Card-Image{
-    height: 150px;
-    width: 270px;
+    height: 180px;
+    width: 380px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
   }
@@ -50,4 +75,55 @@
     margin: 10px;
     height: 210px;
     border-radius: 15px;
+    width: 380px;
   }
+  header{
+    height: 120px;
+    box-shadow: 0px 2px 9px grey;
+    margin-bottom: 5px;
+  }
+
+  .Logo-Header{
+    height: 60px;
+    margin-left: 270px;
+    margin-top: 30px;
+  }
+
+  #Location-Title{
+    margin-left: 320px;
+    font-size: 40px;
+    margin-top: 15px;
+  }
+
+
+  #Location-Icon{
+    margin-left: 260px;
+    margin-top: -40px;
+  }
+
+  .Menu-Container{
+    height: 570px;
+  }
+
+  #Menu-Title{
+  margin-left: 121px;
+  font-size: 60px;
+  margin-top: 50px;
+  }
+
+  .Section-1-Text{
+    margin-left: 85px;
+    font-size: 48px;
+  }
+
+  #Next-Line{
+    margin-left: 320px;
+    font-size: 48px;
+    margin-top: -40px;
+  }
+
+  .Button-Div{
+    margin-left: 200px;
+    margin-top: 60px;
+  }
+  
