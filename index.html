@@ -4,6 +4,8 @@
 <head>
   <title></title>
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="https://kit.fontawesome.com/99a70ce129.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://kit.fontawesome.com/99a70ce129.css" crossorigin="anonymous">
 </head>
 
 <body>
@@ -12,54 +14,61 @@
     <img class="Logo-Header" src="images/logo/ohmyfood.png">
   </header>
   <div class="Location">
-    <p>Paris, Belleville</p>
+    <div id="Location-Title">Paris, Belleville</div>
+    <div id="Location-Icon">
+        <i class="fa-solid fa-location-dot fa-2x"></i>
+    </div>
   </div>
+
   <!---Section-->
-  <section class="Section-1">
-    <h2>Book the menu you like</h2>
-    <p class="Section-1-Text"> Discover top-of-the-art restaurants we picked for you</p>
-    <div class="Button-Div">
-      <button class="Explore-Button">Explore our restaurants</button>
+  <section class="Section-Grey">
+    <div class="Menu-Container">
+        <h2 id="Menu-Title">Book the menu you like</h2>
+        <p class="Section-1-Text"> Discover top-of-the-art restaurants we</p>
+        <p id="Next-Line"> picked for you</p>
+        <div class="Button-Div">
+          <button class="Explore-Button">Explore our restaurants</button>
+        </div>
+      </section>
+      <!--Section-->
+      <section class="Section-Grey--White">
+        <h2>How it works</h2>
+        <div class="How-It-Works-Container">
+          <!--Instructions 1-->
+          <div class="How-It-Works-Div">
+            <div class="HIW-Icon-Number">
+                <i class="fa-solid fa-square-1"></i>
+              </div>
+            <div class="HIW-Icon">
+              <i class="fa-solid fa-mobile-screen-button fa-3x"></i>
+            </div>
+            <h3 class="HIW-Text">Choose a restaurant</h3>
+          </div>
+          <!--Instructions 2-->
+          <div class="How-It-Works-Div">
+            <div class="Number-Icon">
+              <i class="fa-solid fa-circle-2"></i>
+            </div>
+            <div class="HIW-Icon">
+              <i class="fa-solid fa-list fa-3x"></i>
+            </div>
+            <h3 class="HIW-Text">Create your menu</h3>
+          </div>
+          <!--Instructions 3-->
+          <div class="How-It-Works-Div">
+            <div class="Number-Icon">
+              <i class="fa-solid fa-circle-3"></i>
+            </div>
+            <div class="HIW-Icon-Purple">
+              <i class="fa-solid fa-store fa-3x"></i>
+            </div>
+            <h3 class="HIW-Text">Go enjoy it at the restaurant</h3>
+          </div>
+        </div>
     </div>
   </section>
   <!--Section-->
-  <section class="Section-2">
-    <h2>How it works</h2>
-    <div class="How-It-Works-Container">
-      <!--Instructions 1-->
-      <div class="How-It-Works-Div">
-        <div class="Number-Icon">
-          <i class="fa-solid fa-circle-1"></i>
-        </div>
-        <div class="Phone-Icon">
-          <i class="fa-solid fa-mobile-screen-button"></i>
-        </div>
-        <p>Choose a restaurant</p>
-      </div>
-      <!--Instructions 2-->
-      <div class="How-It-Works-Div">
-        <div class="Number-Icon">
-          <i class="fa-solid fa-circle-2"></i>
-        </div>
-        <div class="List-Icon">
-          <i class="fa-solid fa-list"></i>
-        </div>
-        <p>Create your menu</p>
-      </div>
-      <!--Instructions 3-->
-      <div class="How-It-Works-Div">
-        <div class="Number-Icon">
-          <i class="fa-solid fa-circle-3"></i>
-        </div>
-        <div class="Store-Icon">
-          <i class="fa-solid fa-store"></i>
-        </div>
-        <p>Go enjoy it at the restaurant</p>
-      </div>
-    </div>
-  </section>
-  <!--Section-->
-  <section class="Homepage-Section">
+  <section class="Section-Grey">
     <!--Containing Div-->
     <div class="Restaurants-Homepage-Div">
       <!--Title-->
@@ -73,11 +82,14 @@
             <i class="fa-light fa-rectangle-wide"></i>
           </div>
           <div class="Restaurant-Location-Icon">
-            <p class="Restaurant-Name"><strong>The Full Palette</strong>
-            <p>
+            <p class="Restaurant-Name"><strong>The Full Palette</strong></p>
             <p class="Restaurant-City">New York</p>
-            <i class="fa-solid fa-heart"></i>
-            <i class="fa-light fa-hand-pointer"></i>
+            <div class="2-Icons">
+                <div class="Heart-Icon">
+                    <i class="fa-regular fa-heart fa-2x"></i>
+                </div>
+            <div class="New-Div"></div>
+            </div>
           </div>
         </div>
         <!--Restaurant 2-->
@@ -90,9 +102,13 @@
             <p class="Restaurant-Name"><strong>The Enchanted Plate</strong>
             <p>
             <p class="Restaurant-City">New York</p>
-            <div class="Heart">
-              <i class="fa-solid fa-heart"></i>
+            <div class="Heart-Icon">
+                <i class="fa-regular fa-heart fa-2x"></i>
             </div>
+            <div class="Pointer">
+                <i class="fa-regular fa-hand-pointer fa-2x"></i>
+            </div>
+            <div class="New-Div"></div>
           </div>
         </div>
         <!--Restaurant 3-->
@@ -105,7 +121,9 @@
             <p class="Restaurant-Name"><strong>Bastille</strong>
             <p>
             <p class="Restaurant-City">New York</p>
-            <i class="fa-solid fa-heart"></i>
+            <div class="Heart-Icon">
+                <i class="fa-regular fa-heart fa-2x"></i>
+            </div>
           </div>
         </div>
 
@@ -119,8 +137,11 @@
             <p class="Restaurant-Name"><strong>Le Gourmand</strong>
             <p>
             <p class="Restaurant-City">New York</p>
-            <i class="fa-solid fa-heart"></i>
+           <div class="Heart-Icon">
+            <i class="fa-regular fa-heart fa-2x"></i>
+           </div>
           </div>
+          <div class="New-Div"></div>
         </div>
       </div>
     </div>

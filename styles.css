@@ -1,73 +1,195 @@
 .Restaurants-Homepage-Container{
+  display: flex;
+  flex-direction: column;
+  margin-top: -70px;
+  }
+
+  .Restaurants-Homepage-Div{
+    padding: 30px;
+  }
+
+
+  .Section-Grey{
     display: flex;
-    flex-direction: column;
+    background-color:#F2F3F0;
+.Section-Grey--White{: 720px;
+    background-color: white;
+    padding: 30px;
     }
-    
-    .Homepage-Section{
-      display: flex;
-      background-color:#F2F3F0;
-     }
-    
+   ;
+    width: 7;
+    margin-top: ;
+   }
 
-    .Location{
-      background-color: #E8E6E4;
-      padding: 1px;
-    }
+   .Section-Grey--White{
+    padding: 30px;
+   }
 
-    .Footer-Div{
-      
-    }
-
-    .Footer-Text{
-      color: black;      
-    }
-    
-  
-
-    
-    .How-It-Works-Div{
+   .How-It-Works-Div{
+    box-shadow: 8px 10px 10px lightgrey;
     background-color: #F2F3F0;
-    }
-    
-    .Explore-Button{
-      border-radius: 20px;
-      padding: 10px;
-      background-color: #9356DC;
-      color: white;
-    }
+    border-radius: 40px;
+    width: 820;
+    margin-bottom: 40px;
+    padding: 10px;
+    height: 130px;
+   }
 
-    .Section-1{
-     background-color: #F2F3F0; 
-    }
+   .HIW-Icon{
+    color: grey;
+    margin-left: 70px;
+    position: absolute;
+    margin-top: 20px;
+   }
 
-    .Section-2{
-      background-color: #F2F3F0; 
-     }
+   .HIW-Icon-Purple{
+    color: #9356DC;
+    position: absolute;
+    margin-left: 62px;
+    margin-top: 20px;
+   }
 
-    .Restaurant-Card-Image{
-      height: 150px;
-      width: 270px;
-      border-top-left-radius: 15px;
-      border-top-right-radius: 15px;
-    }
-    
-    .Homepage-Section{
-      max-width: 33vw;
-    }
-    
-    .Restaurant-Name{
-      margin-left: 10px;
-      margin-top: 5px;
-    }
-    
-    .Restaurant-City{
-      margin-left: 10px;
-      margin-top: -13px;
-    }
-    
-    .Restaurant-Card{
-      box-shadow: 3px 3px 3px lightgray;
-      margin: 10px;
-      height: 210px;
-      border-radius: 15px;
-    }
+   .HIW-Text{
+    margin-left: 180px;
+    font-size: 35px;
+    margin-top: 15px;
+    padding: 10px;
+    position: absolute;
+   }
+
+  .Location{
+    background-color: #E8E6E4;
+    padding: 1px;
+    height: 90px;
+  }
+  
+  .Explore-Button{
+    border-radius: 48px;
+    padding: 30px;
+    background-color: #9356DC;
+    color: white;
+    font-size: 40px;
+    width: 520px;
+    margin-left: -10px;
+    box-shadow: 0px, 10px, 5px lightgray;
+  }
+
+  .Restaurant-Card-Image{
+    margin-left: -150px;
+    margin-top: -145px;
+    height: 350px;
+    width: 870px;
+    position: absolute;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+  }
+  
+  .Homepage-Section{
+    max-width: 33vw;
+  }
+  
+  .Restaurant-Name{
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  
+  .Restaurant-City{
+    margin-left: 13px;
+    margin-top: -30px;
+  }
+  
+  .Restaurant-Card{
+    box-shadow: 3px 3px 3px lightgray;
+    margin: 10px;
+    height: 220px;
+    border-radius: 30px;
+    width: 380px;
+    margin-top: 2;
+    margin-top: 60px;
+    padding: 150px;
+    padding-right: 340px;
+    background-color: white;
+  }
+  header{
+    height: 120px;
+    box-shadow: 0px 2px 9px grey;
+    margin-bottom: 5px;
+  }
+
+  .Logo-Header{
+    height: 60px;
+    margin-left: 270px;
+    margin-top: 30px;
+  }
+
+  #Location-Title{
+    margin-left: 320px;
+    font-size: 40px;
+    margin-top: 15px;
+  }
+
+
+  #Location-Icon{
+    margin-left: 260px;
+    margin-top: -40px;
+  }
+
+  .Menu-Container{
+    height: 570px;
+  }
+
+  #Menu-Title{
+  margin-left: 121px;
+  font-size: 60px;
+  margin-top: 50px;
+  }
+
+  .Section-1-Text{
+    margin-left: 85px;
+    font-size: 48px;
+  }
+
+  #Next-Line{
+    margin-left: 320px;
+    font-size: 48px;
+    margin-top: -40px;
+  }
+
+  .Button-Div{
+    margin-left: 200px;
+    margin-top: 60px;
+  }
+  
+.How-It-Works-Container{
+
+}
+
+h2{
+  font-size: 49px;
+}
+
+.Restaurant-Location-Icon{
+  margin-top: 230px;
+  font-size: 40px;
+  margin-left: -130px;
+}
+
+.Heart-Icon{
+position: absolute;
+margin-left: 720px;
+margin-top: -120px;
+}
+
+.Pointer{
+position: absolute;
+margin-left: 720px;
+margin-top: -120px;
+}
+
+.New-Div{
+  background-color: #99E2D0;
+  width: 200px;
+  height: 100px;
+  margin-left: -400px;
+  margin-top: -100p;
+}
