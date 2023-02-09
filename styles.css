@@ -1,171 +1,158 @@
-.Restaurants-Homepage-Container{
+//**Header CSS*//
+
+.Header-Container{
   display: flex;
   flex-direction: column;
-  }
-
-  .Restaurants-Homepage-Div{
-    padding: 30px;
-  }
-
-
-  .Section-Grey{
-    display: flex;
-    background-color:#F2F3F0;
-.Section-Grey--White{: 720px;
-    background-color: white;
-    padding: 30px;
-    }
-   }
-
-   .Section-Grey--White{
-    padding: 30px;
-   }
-
-   .How-It-Works-Div{
-    box-shadow: 8px 10px 10px lightgrey;
-    background-color: #F2F3F0;
-    border-radius: 40px;
-    width: 820;
-    padding: 10px;
-    height: 130px;
-   }
-
-   .HIW-Icon{
-    color: grey;
-   }
-
-   .HIW-Icon-Purple{
-    color: #9356DC;
-   }
-
-   .HIW-Text{
-    font-size: 35px;
-    padding: 10px;
-    position: fixed;
-    left: 210px;
-   }
-
-  .Location{
-    background-color: #E8E6E4;
-    padding: 1px;
-    height: 90px;
-  }
-  
-  .Explore-Button{
-    border-radius: 48px;
-    padding: 30px;
-    background-color: #9356DC;
-    color: white;
-    font-size: 40px;
-    width: 520px;
-    box-shadow: 0px, 10px, 5px lightgray;
-  }
-
-  .Restaurant-Card-Image{
-    height: 350px;
-    width: 870px;
-    border-top-left-radius: 35px;
-    border-top-right-radius: 35px;
-  }
-  
-  .Homepage-Section{
-    max-width: 33vw;
-  }
-  
-  .Restaurant-Name{
-
-  }
-  
-  .Restaurant-City{
-   
-  }
-  
-  .Restaurant-Card{
-    box-shadow: 3px 3px 3px lightgray;
-    height: 220px;
-    border-radius: 30px;
-    width: 380px;
-    padding: 150px;
-    padding-right: 340px;
-    background-color: white;
-  }
-  header{
-    height: 120px;
-    box-shadow: 0px 2px 9px grey;
-  }
-
-  .Logo-Header{
-    height: 60px;
-    
-  }
-
-  #Location-Title{
-    
-    font-size: 40px;
-  }
-
-
-  #Location-Icon{
-    
-  }
-
-  .Menu-Container{
-    height: 570px;
-  }
-
-h2{
-  font-size: medium;
-  font-size: 49px;
 }
 
-.Restaurant-Location-Icon{
- 
-  font-size: 40px;
-}
-
-.New-Div{
-  background-color: #99E2D0;
-  width: 200px;
-  height: 100px;
-}
-
-.Logo-Header-Container{
+.Logo-Div{
   display: flex;
-}
-
-.Logo-Header-Div{
   justify-content: center;
+  box-shadow: 3px 3px 3px lightgrey;
+  padding: 10px;
 }
 
 .Location-Div{
-  justify-content: center;
+  display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    padding-right: 40px;
+    background-color: lightgray;
 }
 
-.Menu-Content{
-  padding: 40px;
+.Location-Icon{
+  padding-top: 15px;
 }
 
-#Menu-Title{
-  padding-left: 60px;
+/****MENU SECTION***/
+
+.Menu-Section{
+  display: flex;
+flex-direction: column;
+align-items: center;
 }
 
-#Menu-Text-1{
-    padding-left: 40px;
-    font-size: 45px;
-  }
-
-#Menu-Text-2{
-  font-size: 45px;
-  padding-left: 260px;
+.Menu-Container{
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
-#Button-Div{
-  padding-left: 130px;
-  padding-top: 10px;
-}
-
-.How-It-Works-Container{
+/****HOW IT WORKS SECTION***/
+.HIW-Section{
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.HIW-Opt-Container{
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 20px;
+}
+
+.HIW-Opt-Div{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 20px;
+  box-shadow: 3px 3px 3px lightgrey;
+  border-radius: 20px;
+  padding: 10px;
+  padding-right: 120px;
+  background-color: #F7F2F1;
+}
+
+.HIW-Title-Div{
+  padding-right: 200px;
+}
+
+
+
+.Restaurants-Div{
+  height: 270px;
+  width: 370px;
+  background-color: white;
+  box-shadow: 3px 3px 3px lightgrey;
+  border-radius: 20px;
+}
+
+.Restaurant-Image{
+  height: 190px;
+  width: 370px;
+  border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+
+.Restaurant-Container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding-top: 15px;
+}
+
+.Restaurant-Section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F7F2F1;
+  padding-top: 30px;
+}
+
+.Menu-Section{
+  padding-top: 15px;
+  background-color: #F7F2F1;
+}
+
+.Explore-Button{
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.Button{
+  border-radius: 30px;
+  padding: 10px;
+  width: 200px;
+}
+
+.HIW-Opt-Div{
+  width: 250px;
+}
+
+.Number-Icon{
+  margin-left: -20px;
+  border: 3px solid #9356DC;
+  border-radius: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #9356DC;
+}
+
+.Restaurant-Title{
+  padding-right: 200px;
+  width: 370px;
+}
+
+.Title-Div{
+  padding-right: 250px;
+}
+
+.Restaurant-Text-Div{
+  padding-left: 10px;
+  margin-top: -10px;
+}
+
+.Restaurant-Location{
+  margin-top: -10px;
+}
+
+.Heart-Icon{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
 }
