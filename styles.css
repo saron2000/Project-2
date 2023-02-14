@@ -28,7 +28,7 @@
 /****MENU SECTION***/
 
 .Menu-Section{
-  display: flex;
+display: flex;
 flex-direction: column;
 align-items: center;
 }
@@ -72,7 +72,16 @@ align-items: center;
 }
 
 .HIW-Section__HIW-Text{
-font-size: 15px;
+  width: 300px;
+  font-weight: 600;
+}
+
+.HIW-Opt-Div--LightPurple{
+  background-color: #f3e3fc;
+}
+
+.HIW-Section--Purple{
+  color: #9356DC;
 }
 
 .Restaurant-Section__Restaurants-Div{
