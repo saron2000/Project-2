@@ -5,14 +5,14 @@
   flex-direction: column;
 }
 
-.Logo-Div{
+.Header-Container__Logo-Div{
   display: flex;
   justify-content: center;
   box-shadow: 3px 3px 3px lightgrey;
   padding: 10px;
 }
 
-.Location-Div{
+.Header-Container__Location-Div{
   display: flex;
     flex-direction: row;
     gap: 20px;
@@ -47,7 +47,7 @@ align-items: center;
   padding-bottom: 40px;
 }
 
-.HIW-Opt-Container{
+.HIW-Section__HIW-Opt-Container{
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -55,7 +55,7 @@ align-items: center;
   justify-content: revert;
 }
 
-.HIW-Opt-Div{
+.HIW-Section__HIW-Opt-Div{
   display: flex;
   flex-direction: row;
   align-items: baseline;
@@ -67,15 +67,15 @@ align-items: center;
   background-color: #F7F2F1;
 }
 
-.HIW-Title-Div{
+.HIW-Section__HIW-Title-Div{
   padding-right: 200px;
 }
 
-.HIW-Text{
+.HIW-Section__HIW-Text{
 font-size: 15px;
 }
 
-.Restaurants-Div{
+.Restaurant-Section__Restaurants-Div{
   height: 270px;
   width: 370px;
   background-color: white;
@@ -83,14 +83,14 @@ font-size: 15px;
   border-radius: 20px;
 }
 
-.Restaurant-Image{
+.Restaurant-Section__Restaurant-Image{
   height: 190px;
   width: 370px;
   border-top-right-radius: 20px;
     border-top-left-radius: 20px;
   }
 
-.Restaurant-Container{
+.Restaurant-Section__Restaurant-Container{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -110,24 +110,25 @@ font-size: 15px;
 .Menu-Section{
   padding-top: 15px;
   background-color: #F7F2F1;
+    padding-bottom: 50px;
 }
 
-.Button-Div{
+.Menu-Container__Button-Div{
   padding-top: 10px;
   padding-bottom: 40px;
 }
 
-.Button{
+.Menu-Container__Button{
   border-radius: 30px;
   padding: 10px;
   width: 200px;
 }
 
-.HIW-Opt-Div{
+.HIW-Section__HIW-Opt-Div{
   width: 250px;
 }
 
-.Number-Icon{
+.HIW-Section__Number-Icon{
   margin-left: -20px;
   border: 3px solid #9356DC;
   border-radius: 20px;
@@ -137,25 +138,21 @@ font-size: 15px;
   color: white;
 }
 
-.Restaurant-Title{
-  padding-right: 200px;
-  width: 370px;
-}
 
-.Title-Div{
+.Restaurant-Section__Title-Div{
   padding-right: 250px;
 }
 
-.Restaurant-Text-Div{
+.Restaurant-Section__Restaurant-Text-Div{
   padding-left: 10px;
   margin-top: -10px;
 }
 
-.Restaurant-Location{
+.Restaurant-Section__Restaurant-Location{
   margin-top: -10px;
 }
 
-.Heart-Icon{
+.Restaurant-Section__Heart-Icon{
   display: flex;
   justify-content: flex-end;
   padding-right: 30px;
@@ -170,7 +167,7 @@ Footer{
 
 }
 
-.Heading2{
+.Footer-Container__Heading{
   font-family: "Shrikhand", sans-serif;
   color: white;
 }
@@ -179,18 +176,13 @@ Footer{
 color: white;
 }
 
-.Footer-Icon{
+.Footer-Container__Div{
   color: white;
   display: flex;
   flex-direction: row;
   align-items: baseline;
   gap: 10px;
 }
-
-.Footer-Content-Container{
-  padding-left: 20px;
-}
-
 
 body {
   font-family: "Roboto", sans-serif;
