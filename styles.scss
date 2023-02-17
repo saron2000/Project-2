@@ -17,12 +17,27 @@ $number-colour; #9356DC
   box-shadow: 3px 3px 3px lightgrey;
 }
 
-
-.Header-Container{
+/*NESTED HEADER*/
+.Header-Container__Logo-Div{
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  @mixin box-shadow
+  padding: 10px;
+}
+.Header-Container__Location-Div{
+  display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    padding-right: 40px;
+    background-color: $background-colour;
+     .Header-Container__Location-Icon{
+    padding-top: 15px;
   }
+}
+
   
+/*UNESTED HEADER*/
   .Header-Container__Logo-Div{
     display: flex;
     justify-content: center;
@@ -43,17 +58,53 @@ $number-colour; #9356DC
     padding-top: 15px;
   }
   
-  /****MENU SECTION***/
-  
+  /*UNESTED MENU SECTION***/
   .Menu-Section{
-    @mixin center-position{
+    @mixin center-position
+    padding-top: 15px;
+    background-color: $background-colour;
+    padding-bottom: 50px;
+  }
+  
+  .Menu-Container__Button-Div{
+    padding-top: 10px;
+    padding-bottom: 40px;
+  }
+  
+  .Menu-Container__Button{
+    border-radius: 30px;
+    padding: 10px;
+    width: 200px;
   }
   
   .Menu-Container{
     @mixin center-position;
   }
   
-  /****HOW IT WORKS SECTION***/
+  /*NESTED MENU SECTION***/
+  .Menu-Section{
+    @mixin center-position
+    padding-top: 15px;
+    background-color: $background-colour;
+    padding-bottom: 50px;
+    .Menu-Container{
+      @mixin center-position;
+      __Button-Div{
+        padding-top: 10px;
+        padding-bottom: 40px;
+        __Button{
+          border-radius: 30px;
+          padding: 10px;
+          width: 200px;
+        }
+      }
+    }
+  }
+  
+
+
+
+  /****UNNESTED HOW IT WORKS SECTION***/
   .HIW-Section{
     @mixin center-position;
     padding-bottom: 40px;
@@ -75,6 +126,7 @@ $number-colour; #9356DC
     padding: 10px;
     padding-right: 120px;
     background-color: $background-colour;
+    width: 250px;
   }
   
   .HIW-Section__HIW-Title-Div{
@@ -91,9 +143,71 @@ $number-colour; #9356DC
   }
   
   .HIW-Section--Purple{
-    color: #9356DC;
+    color: $number-colour;
   }
   
+  .HIW-Section__Number-Icon{
+    margin-left: -20px;
+    border: 3px solid $number-colour;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: $number-colour;
+    color: white;
+  }
+  
+  /****NESTED HOW IT WORKS SECTION***/
+  .HIW-Section{
+    @mixin center-position;
+    padding-bottom: 40px;
+    .HIW-Section__HIW-Title-Div{
+      padding-right: 200px;
+      __HIW-Text{
+        width: 300px;
+        font-weight: 600;
+      }
+    }
+    .HIW-Section__HIW-Opt-Container{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      align-items: stretch;
+      justify-content: revert;
+      __HIW-Opt-Div{
+        @mixin baseline-position;
+        gap: 20px;
+        @mixin box-shadow;
+        border-radius: 20px;
+        padding: 10px;
+        padding-right: 120px;
+        background-color: $background-colour;
+        width: 250px;
+        __Number-Icon{
+          margin-left: -20px;
+          border: 3px solid $number-colour;
+          border-radius: 20px;
+          padding-left: 5px;
+          padding-right: 5px;
+          background-color: $number-colour;
+          color: white;
+      __HIW-Opt-Div HIW-Opt-Div--LightPurple{
+            background-color: #f3e3fc;
+            --Purple{
+              color: $number-colour;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+
+
+
+/****UNESTED RESTAURANTS SECTION***/
+
+
   .Restaurant-Section__Restaurants-Div{
     height: 270px;
     width: 370px;
@@ -121,39 +235,7 @@ $number-colour; #9356DC
     background-color: $background-colour;
     padding-top: 30px;
   }
-  
-  .Menu-Section{
-    padding-top: 15px;
-    background-color: $background-colour;
-      padding-bottom: 50px;
-  }
-  
-  .Menu-Container__Button-Div{
-    padding-top: 10px;
-    padding-bottom: 40px;
-  }
-  
-  .Menu-Container__Button{
-    border-radius: 30px;
-    padding: 10px;
-    width: 200px;
-  }
-  
-  .HIW-Section__HIW-Opt-Div{
-    width: 250px;
-  }
-  
-  .HIW-Section__Number-Icon{
-    margin-left: -20px;
-    border: 3px solid $number-colour;
-    border-radius: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
-    background-color: $number-colour;
-    color: white;
-  }
-  
-  
+
   .Restaurant-Section__Title-Div{
     padding-right: 250px;
   }
@@ -173,6 +255,54 @@ $number-colour; #9356DC
     padding-right: 30px;
   }
   
+  
+  /****NESTED RESTAURANTS SECTION***/
+  .Restaurant-Section{
+    @mixin center-position;
+    background-color: $background-colour;
+    padding-top: 30px;
+    __Title-Div{
+      padding-right: 250px;
+    }
+    __Restaurant-Container{
+      @mixin center-position;
+      gap: 20px;
+      padding-top: 15px;
+      padding-bottom: 40px;
+      __Restaurants-Div{
+        height: 270px;
+        width: 370px;
+        background-color: white;
+        @mixin box-shadow;
+        border-radius: 20px;
+        __Restaurant-Image{
+          height: 190px;
+          width: 370px;
+          border-top-right-radius: 20px;
+          border-top-left-radius: 20px;
+          __Restaurant-Text-Div{
+            padding-left: 10px;
+            margin-top: -10px;
+            __Restaurant-Location{
+              margin-top: -10px;
+            }
+          __Heart-Icon{
+              display: flex;
+              justify-content: flex-end;
+              padding-right: 30px;
+            }  
+          }
+        }
+      }
+    }
+    
+
+  }
+
+  
+  
+  /*unnested footer*/
+
   Footer{
     background-color: black;
     @mixin center-position;
@@ -198,4 +328,21 @@ $number-colour; #9356DC
     font-family: "Roboto", sans-serif;
   }
   
-  
+  /*NESTED FOOTER*/
+
+  Footer{
+    background-color: black;
+    @mixin center-position;
+    __Heading{
+      font-family: "Shrikhand", sans-serif;
+      color: white;
+    }
+    __Div{
+      @mixin baseline-position;
+      color: white;
+      gap: 10px;
+      __Content{
+        color: white;
+        }
+    }
+  }
