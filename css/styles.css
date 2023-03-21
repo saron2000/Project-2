@@ -9,22 +9,24 @@ display: flex;
 flex-direction: column;
 }
 
-.Header-Container__Logo-Div {
-display: flex;
-justify-content: center;
-box-shadow: 3px 3px 3px lightgrey;
-padding: 10px;
+.Header-Container__Logo-Div{
+  display: flex;
+    justify-content: center;
+    box-shadow: 1px 7px 10px lightgrey;
+    padding: 10px;
 }
 
-.Header-Container__Location-Div {
-display: flex;
-flex-direction: row;
-gap: 20px;
-justify-content: center;
-padding-right: 40px;
-background-color: lightgray;
-align-items: center;
+.Header-Container__Location-Div{
+  display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    padding-right: 40px;
+    align-items: center;
+    margin-top: 5px;
+    background-color: #e6e6e6;
 }
+
 
 .Location-Icon {
 }
@@ -359,11 +361,7 @@ body {
 font-family: "Roboto", sans-serif;
 }
 
-.First-Half {
-text-decoration: underline;
-text-decoration-color: #99E2D0;
-font-size: 15px;
-}
+.First-Half {border-bottom: 3px solid #99E2D0;font-size: 15px;padding-bottom: ;padding-bottom: 3px;}
 
 .Second-Half {
 font-size: 15px;
@@ -568,6 +566,9 @@ background: linear-gradient(#FF79DA, #9356DC);
 }
 .Menu-Section__Course-Container{
   margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 .New-Div{background-color: #99E2D0;position: absolute;display: flex;flex-direction: column;align-items: end;justify-content: center;padding: 10px 35px;margin: 15px;}
 
